@@ -1,0 +1,23 @@
+{
+  "name": "chargespace-forge-pro",
+  "version": "1.0.0",
+  "description": "Spacecraft Surface & Internal Dielectric Charging, GEO Substorm Plasma & ESD Arc Mitigation Studio per NASA-HDBK-4002A and ECSS-E-ST-20-06C",
+  "main": "chargespace-engine.js",
+  "type": "module",
+  "scripts": {
+    "test": "node chargespace-auditor.js",
+    "test:py": "python3 test_runner.py",
+    "cli": "python3 chargespace_cli.py"
+  },
+  "keywords": [
+    "aerospace",
+    "spacecraft-charging",
+    "esd",
+    "plasma-substorm",
+    "nasa-hdbk-4002a",
+    "ecss-e-st-20-06c",
+    "deep-dielectric"
+  ],
+  "author": "Autonomous Aerospace Digital Product Factory",
+  "license": "Commercial-Proprietary"
+}
